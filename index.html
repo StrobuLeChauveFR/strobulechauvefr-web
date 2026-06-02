@@ -13,6 +13,8 @@
             --primary: #38bdf8;
             --primary-hover: #0ea5e9;
             --accent: #f97316;
+            --support-color: #eab308;
+            --support-hover: #ca8a04;
             --border-color: #2e354f;
         }
 
@@ -185,6 +187,16 @@
             border-color: var(--primary);
         }
 
+        .social-link.support {
+            border-color: rgba(234, 179, 8, 0.3);
+            background-color: rgba(234, 179, 8, 0.05);
+        }
+
+        .social-link.support:hover {
+            border-color: var(--support-color);
+            background-color: rgba(234, 179, 8, 0.1);
+        }
+
         .footer-text {
             text-align: center;
             margin-top: 5px;
@@ -285,11 +297,19 @@
                 <a href="https://www.twitch.tv/strobulechauve" target="_blank" class="social-link">
                     <span>🟣</span> Twitch Live
                 </a>
+                <a href="https://www.youtube.com/@StrobuLeChauve-TTV" target="_blank" class="social-link">
+                    <span>🔴</span> YouTube Chaîne
+                </a>
                 <a href="https://www.tiktok.com/@strobulechauvefr" target="_blank" class="social-link">
                     <span>⚫</span> TikTok Officiel
                 </a>
 
-                <p class="footer-text" style="margin-top: 20px;">Strobu-France : Roule avec passion, vis l'aventure.</p>
+                <h2 style="margin-top: 25px; margin-bottom: 15px; font-size: 1.2rem;">Soutenir le Projet</h2>
+                <a href="https://streamelements.com/strobulechauve/tip" target="_blank" class="social-link support">
+                    <span>🪙</span> Soutenir mes projets (Tip)
+                </a>
+
+                <p class="footer-text" style="margin-top: 25px;">Strobu-France : Roule avec passion, vis l'aventure.</p>
             </div>
         </aside>
     </div>
